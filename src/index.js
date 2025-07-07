@@ -53,6 +53,12 @@ app.use(cors({
     if (!origin) return callback(null, true);
     // Allow any localhost port for dev
     if (/^http:\/\/localhost:\d+$/.test(origin)) return callback(null, true);
+    // Allow Azure Static Web Apps domain
+    if (origin.includes('azurestaticapps.net')) return callback(null, true);
+    // Allow your specific domain
+    if (origin === 'https://wonderful-pebble-02cc66800.2.azurestaticapps.net') return callback(null, true);
+    // Allow other common production patterns
+    if (origin.includes('azurewebsites.net')) return callback(null, true);
     callback(new Error('Not allowed by CORS'));
   },
   credentials: true
