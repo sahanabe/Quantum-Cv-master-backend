@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Software Engineer",
+    "keywords": ["JavaScript", "React", "Node.js", "API", "Git", "Agile", "Unit Testing", "CI/CD", "REST", "TypeScript"],
+    "description": "Develops and maintains web applications using modern JavaScript frameworks and backend technologies."
+  },
+  {
+    "title": "Data Scientist",
+    "keywords": ["Python", "Machine Learning", "Pandas", "NumPy", "TensorFlow", "Data Analysis", "Statistics", "SQL", "Visualization", "Deep Learning"],
+    "description": "Analyzes data, builds predictive models, and communicates insights to stakeholders."
+  },
+  {
+    "title": "Product Manager",
+    "keywords": ["Product Roadmap", "Stakeholder Management", "User Stories", "Agile", "Market Research", "MVP", "Wireframing", "Analytics", "Go-to-Market", "Scrum"],
+    "description": "Leads product development, defines requirements, and ensures successful product launches."
+  },
+  {
+    "title": "UX Designer",
+    "keywords": ["Wireframes", "Prototyping", "User Research", "Figma", "Sketch", "Usability Testing", "Interaction Design", "Personas", "Accessibility", "UI Design"],
+    "description": "Designs user interfaces and experiences that are intuitive, accessible, and visually appealing."
+  },
+  {
+    "title": "Preschool Teacher",
+    "keywords": [
+      "Early Childhood Education",
+      "Classroom Management",
+      "Lesson Planning",
+      "Child Development",
+      "Parent Communication",
+      "Special Needs",
+      "Activity Coordination",
+      "Behavior Management",
+      "Teamwork",
+      "Creativity"
+    ],
+    "description": "Plans and implements educational activities for preschool children, manages classroom behavior, communicates with parents, and supports the development of young children. Experience with special needs and diverse backgrounds is valued."
+  }
+]
